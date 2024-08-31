@@ -1,0 +1,19 @@
+.grid-view {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.grid-item {
+  padding: 25px;
+
+  background: #f9f9f9;
+  border: 1px solid #ddd;
+  cursor: pointer;
+  transition: background 0.3s;
+  border-radius: 12px;
+}
+
+.grid-item:hover {
+  background: #eee;
+}

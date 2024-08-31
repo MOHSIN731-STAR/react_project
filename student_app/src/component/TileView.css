@@ -1,0 +1,22 @@
+.tile-view {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.tile-item {
+  padding: 20px;
+  background: #f9f9f9;
+  border: 1px solid #ddd;
+  cursor: pointer;
+  transition: background 0.3s;
+  width: calc(33% - 20px);
+}
+
+.tile-item:hover {
+  background: #eee;
+}
+
+.tile-item button {
+  margin-right: 10px;
+}
